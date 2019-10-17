@@ -18,6 +18,7 @@ a.link-no-style {
   flex-direction: column;
   align-content: center;
   align-items: center;
+
   footer {
     display: flex;
     position: relative;
@@ -25,7 +26,7 @@ a.link-no-style {
     margin-top: -60px;
     height: 60px;
     clear: both;
-    background-color: $color-primary;
+    background-color: $nav-grey;
     color: white;
     justify-content: center;
     width: 100%;
