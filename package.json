@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-react-bootstrap",
+  "name": "rtlc",
   "private": true,
-  "description": "A starter that includes and configures react-bootstrap and react-icons, along with SASS handling. ",
+  "description": "Rebuilding Together Litchfield County",
   "version": "0.1.0",
-  "author": "Billy Jacoby <billyjacoby@gmail.com>",
+  "author": "Matthew Rebehn <matthew@mattaz.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gatsby": "^2.16.4",
@@ -28,7 +28,7 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "rebuilding together, litchfield, connecticut, homes, low-income, housing, repairs, elderly"
   ],
   "license": "MIT",
   "scripts": {
@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/RebuildingTogetherLitchfield/rtlc.website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/RebuildingTogetherLitchfield/rtlc.website/issues"
   },
-  "homepage": "https://billyjacoby.github.io/gatsby-react-bootstrap-starter/"
+  "homepage": "https://rebuildingtogetherlitchfield.org"
 }

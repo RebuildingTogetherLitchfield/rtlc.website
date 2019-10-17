@@ -284,6 +284,7 @@ h3 {
   position: relative;
   z-index: 1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   text-decoration: none;
