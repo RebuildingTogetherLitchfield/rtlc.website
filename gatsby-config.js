@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
-    title: `Gatsby React Bootstrap Starter`,
-    description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
-    author: `Billy Jacoby`,
+    title: `Rebuilding Together Litchfield County`,
+    description: `Rebuilding Together is a leading nonprofit in safe and healthy housing. `,
+    author: `Matthew Rebehn`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,11 +20,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-react-bootstrap`,
-        short_name: `react-bootstrap`,
+        name: `Rebuilding Together Litchfield County`,
+        short_name: `RTLC`,
         start_url: `/`,
-        background_color: `#20232a`,
-        theme_color: `#20232a`,
+        background_color: `#7AC143`,
+        theme_color: `#7AC143`,
         display: `minimal-ui`,
       },
     },

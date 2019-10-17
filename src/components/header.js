@@ -10,9 +10,10 @@ const Header = ({ siteTitle }) => (
   >
     <div
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
+        margin: `auto`,
+        maxWidth: `640px`,
         padding: `1.45rem 1.0875rem`,
+        textAlign: `center`,
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -21,6 +22,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
+            textAlign: `center`,
           }}
         >
           {siteTitle}
