@@ -39,10 +39,12 @@ const Layout = ({ children, pageInfo }) => (
           <Row noGutters>
             <Col className="footer-col">
               <footer>
-                <span>
-                  © {new Date().getFullYear()}, Built with
+                <span style={{ color: `#7ac143` }}>
+                  © {new Date().getFullYear()}
                   {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a>
+                  <a href="https://rebuildingtogetherlitchfield.org">
+                    Rebuilding Together Litchfield County, Inc
+                  </a>
                 </span>
               </footer>
             </Col>
