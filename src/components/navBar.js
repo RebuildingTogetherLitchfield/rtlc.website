@@ -11,19 +11,19 @@ const CustomNavbar = ({ pageInfo }) => {
         {/* <Container> */}
         <Link to="/" className="link-no-style">
           <Navbar.Brand style={{ color: `#7ac143` }} as="span">
-            Gatsby React Bootstrap
+            Rebuilding Together Litchfield County
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
-            <Link to="/page-2" className="link-no-style">
+            <Link to="/about_us" className="link-no-style">
               <Nav.Link
                 as="span"
-                eventKey="page-2"
+                eventKey="about_us"
                 style={{ color: `#35641b` }}
               >
-                Page 2
+                About Us
               </Nav.Link>
             </Link>
           </Nav>
