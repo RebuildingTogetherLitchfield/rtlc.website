@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
           textAlign: `center`,
         }}
       >
-        <img src={logo} style={{ margin: 0 }} />{" "}
+        <img src={logo} style={{ margin: 0 }} alt="RTLC Logo" />{" "}
       </Link>
     </div>
   </header>

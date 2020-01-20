@@ -7,9 +7,9 @@ const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
   return (
     <>
-      <Navbar variant="dark" expand="lg" id="site-navbar">
+      <Navbar variant="dark" expand="lg" id="site-navbar top_nav_desktop">
         {/* <Container> */}
-        <Link to="/" className="link-no-style">
+        <Link to="/" className="link-no-style top_nav top_nav-left">
           <Navbar.Brand style={{ color: `#7ac143` }} as="span">
             Rebuilding Together Litchfield County
           </Navbar.Brand>
